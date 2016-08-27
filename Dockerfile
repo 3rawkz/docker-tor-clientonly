@@ -4,7 +4,7 @@ MAINTAINER nagev <np1nagev@gmail.com>
 # https://github.com/np1/docker-tor-clientonly
 # Based on https://github.com/patrickod/docker-tor
 
-ENV TORNAME tor-0.2.7.6
+ENV TORNAME tor-0.2.8.7
 
 RUN set -ex \
     && buildDeps='libwww-perl build-essential libevent-dev libssl-dev wget' \
